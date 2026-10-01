@@ -2,6 +2,7 @@ import { StyleProp, StyleSheet, Text, View, ViewStyle } from 'react-native';
 
 import { colors } from '../theme/colors';
 
+
 type FieldProps = {
   label: string;
   hint?: string;
@@ -9,6 +10,7 @@ type FieldProps = {
   children: React.ReactNode;
   containerStyle?: StyleProp<ViewStyle>;
 };
+
 
 export function Field({ label, hint, error, children, containerStyle }: FieldProps) {
   return (
@@ -22,6 +24,7 @@ export function Field({ label, hint, error, children, containerStyle }: FieldPro
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
