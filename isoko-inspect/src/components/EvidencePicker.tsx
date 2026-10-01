@@ -4,9 +4,11 @@ import { Alert, Image, Linking, Pressable, StyleSheet, Text, View } from 'react-
 import { useInspection } from '../state/InspectionProvider';
 import { colors } from '../theme/colors';
 
+
 export function EvidencePicker() {
   const { state, setEvidence, setMediaBanner } = useInspection();
 
+    
   const openCamera = async () => {
     const cameraPermission = await ImagePicker.getCameraPermissionsAsync();
     if (cameraPermission.status !== 'granted') {

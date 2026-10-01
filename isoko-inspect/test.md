@@ -1,5 +1,5 @@
-GIT_AUTHOR_NAME="Mohammed" \
-GIT_AUTHOR_EMAIL="ug2527659@ines.ac.rw" \
-GIT_COMMITTER_NAME="Mohammed" \
-GIT_COMMITTER_EMAIL="ug2527659@ines.ac.rw" \
+GIT_AUTHOR_NAME="haroundeiy" \
+GIT_AUTHOR_EMAIL="haroundeiy950@gmail.com" \
+GIT_COMMITTER_NAME="haroundeiy" \
+GIT_COMMITTER_EMAIL="haroundeiy950@gmail.com" \
 git commit -m "updated empty state"
