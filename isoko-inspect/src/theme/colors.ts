@@ -1,0 +1,16 @@
+export const colors = {
+  paper: '#F3EBE0',
+  paperElevated: '#FFFCF6',
+  ink: '#0A1410',
+  inkMuted: '#4E6254',
+  inkSubtle: '#7A8A7E',
+  forest: '#1B4D3E',
+  forestDeep: '#0E2A23',
+  forestSoft: '#DCE8E2',
+  clay: '#9A4A32',
+  claySoft: '#F3E0D8',
+  brick: '#7A3A3A',
+  brickSoft: '#F0DCDC',
+  border: '#E1D4C4',
+  borderStrong: '#CBBBA6',
+} as const;
