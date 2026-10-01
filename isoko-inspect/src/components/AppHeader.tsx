@@ -19,6 +19,7 @@ export function AppHeader() {
   );
 }
 
+
 const styles = StyleSheet.create({
   header: {
     backgroundColor: colors.forest,
@@ -52,6 +53,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'rgba(255,255,255,0.16)',
   },
+    
   pillText: {
     color: colors.paperElevated,
     fontSize: 11,
