@@ -2,12 +2,14 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { colors } from '../theme/colors';
 
+
 type EmptyStateProps = {
   title: string;
   body: string;
   buttonLabel?: string;
   onPress?: () => void;
 };
+
 
 export function EmptyState({ title, body, buttonLabel, onPress }: EmptyStateProps) {
   return (
@@ -26,6 +28,7 @@ export function EmptyState({ title, body, buttonLabel, onPress }: EmptyStateProp
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   card: {
